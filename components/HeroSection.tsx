@@ -3,7 +3,7 @@ import Link from 'next/link'
 interface HeroSectionProps {
   backgroundImage?: string
   eyebrow?: string
-  title: string
+  title?: string          
   highlight?: string
   subtitle?: string
   primaryCta?: { label: string; href: string }
