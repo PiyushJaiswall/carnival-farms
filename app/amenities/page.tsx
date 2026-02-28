@@ -14,7 +14,7 @@ const amenityList = [
   {
     name: 'Swimming Pool',
     desc: 'Dive into our stunning resort pool — a centerpiece of luxury and leisure. Whether you want to swim laps at dawn or lounge poolside with a drink, our pool area is your personal paradise.',
-    details: ['Heated pool available', 'Poolside loungers & cabanas', 'Children's wading section', 'Towel service included', 'Pool bar (seasonal)'],
+   details: ['Heated pool available', 'Poolside loungers & cabanas', "Children's wading section", 'Towel service included', 'Pool bar (seasonal)'],
     img: 'https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?w=1200&auto=format&fit=crop&q=80',
     hours: 'Open 6:00 AM – 10:00 PM',
   },
