@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Georgia, Cambria, serif;
+  background-color: #0a0a0a;
+  color: #f5f0e8;
+}
+
+@layer components {
+  .section-padding {
+    @apply px-6 py-20 md:px-16 lg:px-24;
+  }
+
+  .heading-luxury {
+    @apply text-4xl md:text-5xl font-light tracking-widest uppercase;
+  }
+
+  .btn-primary {
+    @apply border border-amber-400 text-amber-400 px-8 py-3 text-xs tracking-widest uppercase 
+           hover:bg-amber-400 hover:text-black transition-all duration-300 inline-block cursor-pointer;
+  }
+
+  .btn-solid {
+    @apply bg-amber-400 text-black px-8 py-3 text-xs tracking-widest uppercase 
+           hover:bg-amber-300 transition-all duration-300 inline-block;
+  }
+
+  .card-border {
+    @apply border border-luxury-border hover:border-amber-400/50 transition-all duration-300;
+  }
+
+  .form-label {
+    @apply text-xs tracking-widest uppercase text-gray-400 block mb-2;
+  }
+
+  .form-input {
+    @apply w-full bg-transparent border border-luxury-border px-4 py-3 text-white text-sm 
+           focus:border-amber-400 focus:outline-none transition-colors duration-200;
+  }
+}
