@@ -1,4 +1,3 @@
-
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
@@ -11,11 +10,11 @@ const config: Config = {
     extend: {
       colors: {
         luxury: {
-          dark: '#0a0a0a',
-          card: '#111111',
-          border: '#2a2a2a',
+          dark: '#fafaf8',
+          card: '#f4f1ec',
+          border: '#e5e0d8',
           gold: '#c9a84c',
-          cream: '#f5f0e8',
+          cream: '#1a1a1a',
         },
       },
       fontFamily: {
