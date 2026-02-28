@@ -19,17 +19,17 @@ const values = [
   {
     icon: '✦',
     title: 'Luxury Redefined',
-    desc: 'We blend opulent design with the warmth of Bihar's cultural heritage to create experiences that are uniquely ours.',
+    desc: "We blend opulent design with the warmth of Bihar's cultural heritage to create experiences that are uniquely ours.",
   },
   {
     icon: '✦',
     title: 'Impeccable Service',
-    desc: 'Our trained hospitality team anticipates your every need, ensuring every moment of your stay is effortless.',
+    desc: "Our trained hospitality team anticipates your every need, ensuring every moment of your stay is effortless.",
   },
   {
     icon: '✦',
     title: 'Memorable Moments',
-    desc: 'From a quiet breakfast to a grand wedding, we ensure every experience at Carnival Farms becomes a treasured memory.',
+    desc: "From a quiet breakfast to a grand wedding, we ensure every experience at Carnival Farms becomes a treasured memory.",
   },
 ]
 
@@ -66,7 +66,7 @@ export default function AboutPage() {
             <SectionHeading eyebrow="Welcome to Carnival Farms" title="Our Story" center={false} />
             <p className="text-gray-400 leading-relaxed mb-5 text-sm">
               Carnival Farms was born from a vision to create a world where luxury hospitality meets
-              the warmth of Bihar's culture. Nestled in the vibrant city of Patna, our resort is a
+              the warmth of Bihar culture. Nestled in the vibrant city of Patna, our resort is a
               sanctuary of calm, elegance, and refined pleasure.
             </p>
             <p className="text-gray-400 leading-relaxed mb-8 text-sm">
@@ -111,4 +111,3 @@ export default function AboutPage() {
     </>
   )
 }
-
